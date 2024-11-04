@@ -30,9 +30,7 @@ pipeline {
                 script {
                     // Build Docker image for frontend
                     echo 'Building frontend Docker image...'
-                    dir('frontend') {
-                        sh 'docker build -t $DOCKER_IMAGE_FRONTEND .'
-                    }
+                    sh 'docker build -t $DOCKER_IMAGE_FRONTEND .'
                 }
             }
         }
