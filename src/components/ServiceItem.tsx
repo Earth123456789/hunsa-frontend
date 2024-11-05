@@ -26,7 +26,7 @@ const ServiceItem: React.FC<CardItemProps> = ({ services, onBookNow }) => {
         >
           <figure>
             <img
-              src={service.imgSrc}
+              src="/assets/service_1.jpg"
               alt={service.imgAlt}
               style={{ width: "auto", height: "275px" }}
               className="rounded-lg"

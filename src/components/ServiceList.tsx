@@ -23,7 +23,7 @@ const ServiceList: React.FC<ServiceListProps> = ({ services }) => {
         <div className="card bg-base-100 w-96 shadow-xl" key={service._id}>
           <figure>
             <img
-              src={service.imgSrc}
+              src="/assets/service_1.jpg"
               alt={service.imgAlt}
               style={{ width: "auto", height: "250px" }}
             />

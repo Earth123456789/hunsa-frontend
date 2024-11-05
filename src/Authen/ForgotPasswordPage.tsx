@@ -1,8 +1,8 @@
 // src/Authen/ForgotPasswordPage.tsx
 
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AdminNavbar from "../components/AdminNavbar";
 
 const ForgotPasswordPage = () => {
   const [email, setEmail] = useState("");
@@ -20,7 +20,7 @@ const ForgotPasswordPage = () => {
   return (
     <div>
       <header>
-        <Navbar />
+        <AdminNavbar />
       </header>
 
       <div
