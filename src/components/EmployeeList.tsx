@@ -35,6 +35,7 @@ const EmployeeList: React.FC<EmployeeListProps> = ({
           <figure>
             <img
               src="/assets/blank-profile.jpg"
+              
               alt={employee.username}
               style={{ width: "auto", height: "250px" }}
             />

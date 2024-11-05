@@ -23,6 +23,7 @@ const EmployeeItem: React.FC<CardItemProps> = ({ employees }) => {
           <figure>
             <img
               src="/assets/blank-profile.jpg"
+
               alt={employee.username}
               style={{ width: "auto", height: "275px" }}
               className="rounded-lg"
