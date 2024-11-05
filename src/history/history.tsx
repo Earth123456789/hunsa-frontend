@@ -94,7 +94,7 @@ const History = () => {
         className="flex items-center justify-between w-4/5 max-w-3xl p-5 border border-gray-300 rounded-lg shadow-md mb-5"
       >
         <img
-          src="/assets/baber_1.jpg" // Image placeholder, replace with real image if available
+          src="/assets/blank-profile.png" // Image placeholder, replace with real image if available
           alt={reservation.serviceId}
           className="w-36 h-24 object-cover rounded-lg"
         />
