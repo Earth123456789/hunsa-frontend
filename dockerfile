@@ -22,9 +22,6 @@ FROM nginx:alpine
 # คัดลอกไฟล์ build ไปยัง nginx
 COPY --from=build /app/build /usr/share/nginx/html
 
-# คัดลอกไฟล์การตั้งค่า nginx
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
 # เปิด port 80
 EXPOSE 80
 
