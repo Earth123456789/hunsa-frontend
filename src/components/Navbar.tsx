@@ -41,6 +41,12 @@ const Navbar: React.FC<NavbarProps> = ({
         >
           {button3}
         </NavLink>
+        <NavLink
+          className="btn lg:mr-12 bg-[#483c5c] text-white hover:bg-[#443e6b]"
+          to="/admin/login"
+        >
+          {button4}
+        </NavLink>
       </div>
     </nav>
   );

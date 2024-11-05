@@ -13,7 +13,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           button1="Home Page"
           button2="All Service"
           button3="Our Staff"
-          button4="Book now"
+          button4="Login For Beautician"
         />
       </header>
 
