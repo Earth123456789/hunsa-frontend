@@ -9,7 +9,7 @@ export interface Service {
   price?: number;
 }
 
-const API_URL = "http://18.204.213.201:3000/api/services";
+const API_URL = "http://54.145.133.68:3000/api/services";
 
 
 // Fetch all services

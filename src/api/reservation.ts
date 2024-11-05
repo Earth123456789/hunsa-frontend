@@ -14,7 +14,7 @@ export interface Reservation {
   updatedAt?: string;
 }
 
-const API_URL = "http://18.204.213.201:3000/api/reservation";
+const API_URL = "http://54.145.133.68:3000/api/reservation";
 
 // 1. Book a New Reservation
 export const bookReservation = async (
