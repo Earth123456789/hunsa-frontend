@@ -34,8 +34,7 @@ const EmployeeList: React.FC<EmployeeListProps> = ({
         <div className="card bg-base-100 w-96 shadow-xl" key={employee._id}>
           <figure>
             <img
-              src="/assets/blank-profile.jpg"
-              
+              src="/assets/blank-profile.png"
               alt={employee.username}
               style={{ width: "auto", height: "250px" }}
             />
