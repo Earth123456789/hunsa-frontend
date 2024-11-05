@@ -11,6 +11,7 @@ export interface Service {
 
 const API_URL = "http://18.204.213.201:3000/api/services";
 
+
 // Fetch all services
 export const fetchServices = async (): Promise<Service[]> => {
   try {
