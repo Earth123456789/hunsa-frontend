@@ -11,7 +11,7 @@ export interface Employee {
   updatedAt?: string;
 }
 
-const API_URL = "http://localhost:8080/api/employees";
+const API_URL = "http://18.204.213.201:3000/api/employees";
 
 // Register a new employee
 export const registerEmployee = async (

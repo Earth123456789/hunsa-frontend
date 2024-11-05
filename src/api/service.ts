@@ -9,7 +9,7 @@ export interface Service {
   price?: number;
 }
 
-const API_URL = "http://localhost:8080/api/services";
+const API_URL = "http://18.204.213.201:3000/api/services";
 
 // Fetch all services
 export const fetchServices = async (): Promise<Service[]> => {
